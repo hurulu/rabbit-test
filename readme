@@ -1,0 +1,8 @@
+Ensure the python-pika is installed before running this script.
+Run: apt-get install python-pika to install the package.
+How to use this script
+1, Edit rabbit.conf, change the host, port, user and password etc accoring to your situation.
+2, Run ./rabbit_test.py. If you two lines of output like this:
+	 [x] Sent 'Hello World!'
+	 [x] Received 'Hello World!'
+   it means your rabbitmq is working.
